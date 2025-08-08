@@ -1,6 +1,18 @@
 
 import streamlit as st
 
+page_bg_img = '''
+<style>
+.stApp {
+background-image: url("https://unsplash.com/photos/vintage-teal-typewriter-beside-book-jLwVAUtLOAQ");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+</style>
+'''
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 st.set_page_config(page_title="Login", layout="centered")
 
 st.markdown("""
