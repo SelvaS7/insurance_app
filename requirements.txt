@@ -43,6 +43,8 @@ threadpoolctl==3.6.0
 toml==0.10.2
 tornado==6.5.1
 typing_extensions==4.14.1
+streamlit-lottie
+
 tzdata==2025.2
 urllib3==2.5.0
 watchdog==6.0.0
