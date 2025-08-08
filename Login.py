@@ -1,5 +1,24 @@
 import streamlit as st
+# 🎨 Background style
+page_bg = '''
+<style>
+.stApp {
+    background-image: url("https://unsplash.com/photos/vintage-teal-typewriter-beside-book-jLwVAUtLOAQ");
+    background-size: cover;
+    background-attachment: fixed;
+}
+</style>
+'''
+st.markdown(page_bg, unsafe_allow_html=True)
 
+# 🔄 Load animation
+def load_lottieurl(url):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
+login_anim = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_jcikwtux.json")
 # Set page config
 st.set_page_config(page_title="Login", page_icon="🔒", layout="centered")
 
