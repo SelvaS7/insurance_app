@@ -3,6 +3,20 @@ import streamlit as st
 import pickle
 import numpy as np
 
+
+page_bg_img = '''
+<style>
+.stApp {
+background-image: url("https://unsplash.com/photos/brown-concrete-building-during-daytime-SzMR1Vcf5aw");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+</style>
+'''
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
+
 if 'logged_in' not in st.session_state or not st.session_state.logged_in:
     st.warning("Please login first.")
     st.stop()
