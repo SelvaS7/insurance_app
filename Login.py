@@ -39,7 +39,7 @@ with st.form("login_form"):
 
     if login_btn:
         # 🔒 Simple hardcoded check (for demo use only!)
-        if username == "admin" and password == "1234":
+        if username == "Selva" and password == "1512":
             st.session_state.logged_in = True
             st.success("✅ Logged in successfully!")
             st.experimental_rerun()
