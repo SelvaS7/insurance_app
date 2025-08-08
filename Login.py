@@ -42,7 +42,7 @@ with st.form("login_form"):
         if username == "Selva" and password == "1512":
             st.session_state.logged_in = True
             st.success("✅ Logged in successfully!")
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.error("❌ Invalid username or password")
 
