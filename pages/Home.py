@@ -16,7 +16,7 @@ st.set_page_config(page_title="Insurance Predictor", layout="centered")
 page_bg = '''
 <style>
 .stApp {
-    background-image: url("https://images.unsplash.com/photo-1588776814546-a282f59b710f");
+    background-image: url("https://unsplash.com/photos/brown-concrete-building-during-daytime-SzMR1Vcf5aw");
     background-size: cover;
     background-attachment: fixed;
 }
