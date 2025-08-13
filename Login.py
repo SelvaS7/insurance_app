@@ -15,7 +15,7 @@ with st.form("login_form"):
     submitted = st.form_submit_button("Login")
 
     if submitted:
-        if username == "Selva" and password == "1512":
+        if username == "Selva" and password == "0412":
             st.success("✅ Logged in successfully!")
             st.session_state.logged_in = True
             st.switch_page("pages/Home.py")  # ✅ Redirect after login
