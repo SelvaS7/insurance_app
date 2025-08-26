@@ -7,7 +7,7 @@ import pickle
 import numpy as np
 
 # --- LOAD DATA ---
-df = pd.read_csv("data/Social_Network_Ads.csv")
+df = pd.read_csv("Social_Network_Ads.csv")
 
 st.title("📊 Data Exploration")
 st.write("Explore the dataset used for training the logistic regression model.")
